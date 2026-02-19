@@ -1,4 +1,4 @@
-import { BookOpen } from 'lucide-react';
+import { BookOpen, ExternalLink } from 'lucide-react';
 
 const Publications = () => {
   const publications = [
@@ -139,7 +139,5 @@ return (
     </section>
   );
 };
-
-export default Publications;
 
 export default Publications;
