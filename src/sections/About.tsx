@@ -9,7 +9,7 @@ const About = () => {
           <div className="w-48 h-48 rounded-full overflow-hidden shadow-lg border-4 border-white">
             {/* 替换后的图片代码 */}
             <img 
-              src="/zlx.jpeg" 
+              src="zlx.jpeg" 
               alt="Profile" 
               className="w-full h-full object-cover" 
             />
