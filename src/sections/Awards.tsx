@@ -149,13 +149,17 @@ const Awards = () => {
 
       {/* Reviewer */}
       <div className="mt-6">
-        <h3 className="text-lg font-semibold text-gray-900 mb-4">期刊审稿人</h3>
+        <h3 className="text-lg font-semibold text-gray-900 mb-4">会议期刊审稿人</h3>
         <div className="bg-white border border-gray-200 rounded-lg p-4">
           <p className="text-gray-700 leading-relaxed">
-            担任 <span className="font-medium text-blue-800">International Journal of Digital Earth</span>、
+            担任 <span className="font-medium text-blue-800"> CVPR</span>、
+            <span className="font-medium text-blue-800"> IJCAI</span>、
+            <span className="font-medium text-blue-800"> ECCV</span>、
+            <span className="font-medium text-blue-800"> NeurIPS</span>、
+            <span className="font-medium text-blue-800">International Journal of Digital Earth</span>、
             <span className="font-medium text-blue-800"> Scientific Data</span>、
             <span className="font-medium text-blue-800"> Remote Sensing</span>、
-            <span className="font-medium text-blue-800"> Scientific Report</span> 等十余本国际SCI收录刊物的审稿人
+            <span className="font-medium text-blue-800"> 遥感学报</span> 等高水平会议期刊审稿人
           </p>
         </div>
       </div>
