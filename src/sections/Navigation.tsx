@@ -14,12 +14,12 @@ const Navigation = () => {
   }, []);
 
   const navItems = [
-    { label: '关于', href: '#about' },
-    { label: '教育背景', href: '#education' },
-    { label: '研究方向', href: '#research' },
-    { label: '发表论文', href: '#publications' },
-    { label: '科研项目', href: '#projects' },
-    { label: '奖项荣誉', href: '#awards' },
+    { label: 'About', href: '#about' },
+    { label: 'Working & Education', href: '#education' },
+    { label: 'Research Interests', href: '#research' },
+    { label: 'Selected Publications', href: '#publications' },
+    { label: 'Leading Programs', href: '#projects' },
+    { label: 'Awards & Hornors', href: '#awards' },
   ];
 
   const scrollToSection = (href: string) => {
