@@ -88,22 +88,49 @@ const Publications = () => {
     }
   ];
 
-  return (
+return (
     <section id="publications" className="academic-section">
-      <h2 className="section-title">代表论文成果</h2>
+      <h2 className="section-title">Selected Publications</h2>
       
-      <div className="space-y-4">
+      <div className="space-y-6"> {/* 增加间距使排版更大方 */}
         {publications.map((pub, index) => (
-          <div key={index} className="publication-item">
+          <div key={index} className="publication-item group">
             <div className="publication-title flex items-start gap-2">
-              <BookOpen className="w-5 h-5 mt-0.5 shrink-0" />
-              <span>{pub.title}</span>
+              <BookOpen className="w-5 h-5 mt-1 shrink-0 text-blue-900" />
+              <div className="flex flex-wrap items-center gap-x-2">
+                {/* 优化点：如果 link 有效则渲染为链接，否则渲染为文本 */}
+                {pub.link !== '#' ? (
+                  <a 
+                    href={pub.link} 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="font-bold text-gray-900 hover:text-blue-700 hover:underline decoration-blue-300 underline-offset-4 flex items-center gap-1 inline-flex"
+                  >
+                    {pub.title}
+                    <ExternalLink className="w-3.5 h-3.5 opacity-0 group-hover:opacity-100 transition-opacity" />
+                  </a>
+                ) : (
+                  <span className="font-bold text-gray-900">{pub.title}</span>
+                )}
+              </div>
             </div>
-            <div className="publication-authors ml-7">{pub.authors}</div>
-            <div className="publication-venue ml-7">{pub.venue}</div>
+            
+            <div className="publication-authors ml-7 text-gray-700 leading-relaxed italic">
+              {pub.authors}
+            </div>
+            
+            <div className="publication-venue ml-7 font-medium text-gray-600">
+              {pub.venue}
+            </div>
+            
             <div className="ml-7 mt-2 flex flex-wrap gap-2">
               {pub.badges.map((badge, idx) => (
-                <span key={idx} className="publication-badge">{badge}</span>
+                <span 
+                  key={idx} 
+                  className="px-2 py-0.5 text-[11px] font-semibold border border-blue-100 bg-blue-50 text-blue-800 rounded shadow-sm"
+                >
+                  {badge}
+                </span>
               ))}
             </div>
           </div>
@@ -112,5 +139,7 @@ const Publications = () => {
     </section>
   );
 };
+
+export default Publications;
 
 export default Publications;
