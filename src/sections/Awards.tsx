@@ -2,11 +2,11 @@ import { Trophy, Medal, Star, Award } from 'lucide-react';
 
 const Awards = () => {
   const awards2025 = [
-    {
-      title: 'DAAD人工智能学者（AI_Net Fellow）',
-      organization: '德国联邦政府',
-      icon: <Award className="w-4 h-4" />
-    },
+    // {
+    //   title: 'DAAD人工智能学者（AI_Net Fellow）',
+    //   organization: '德国联邦政府',
+    //   icon: <Award className="w-4 h-4" />
+    // },
     {
       title: '优秀博士后（前0.1%）',
       organization: '深圳市人社局',
@@ -16,24 +16,24 @@ const Awards = () => {
 
   const awards2024 = [
     {
-      title: '最有贡献数据团队、最有价值数据集（完成人排序第1）',
+      title: '年度十大最有贡献数据团队、最有价值数据集',
       organization: '中国遥感学会/国家对地观测中心',
       icon: <Trophy className="w-4 h-4" />
     },
     {
-      title: '全国空天地信息技术赋能智慧城市大赛一等奖（完成人排序第1）',
+      title: '全国空天地信息技术赋能智慧城市大赛一等奖',
       organization: '中国测绘学会',
       icon: <Medal className="w-4 h-4" />
     },
     {
-      title: '鲲鹏创新应用大赛全国银奖、深圳金奖（完成人排序第4）',
+      title: '鲲鹏创新应用大赛全国银奖、深圳金奖',
       organization: '华为公司',
       icon: <Trophy className="w-4 h-4" />
-    },
-    {
-      title: '中国超算年度最佳应用提名',
-      organization: '中国计算机学会',
-      icon: <Award className="w-4 h-4" />
+    // },
+    // {
+    //   title: '中国超算年度最佳应用提名',
+    //   organization: '中国计算机学会',
+    //   icon: <Award className="w-4 h-4" />
     }
   ];
 
