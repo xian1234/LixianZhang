@@ -1,37 +1,36 @@
 import { Cpu, Satellite, Image } from 'lucide-react';
 
-const Research = () => {
-  const researchAreas = [
+const researchAreas = [
     {
-      title: '面向国产超算的大模型预训练和并行优化',
+      title: 'LLM Pre-training and Parallel Optimization for Domestic Supercomputing Platforms',
       icon: <Cpu className="w-6 h-6" />,
-      description: '构建遥感大模型预训练框架，开展140TB异构数据和6亿参数的预训练，并面向国产Armv8架构CPU开展关键算子重构与并行优化，从预处理、指令级、算子重构到并行策略等维度协同设计，达到437.56Pflops的持续计算性能，取得11Pflops的持续计算性能。',
+      description: 'Developed a pre-training framework for Remote Sensing Large Language Models (RS-LLMs), executing pre-training on 140TB of heterogeneous data with 600 million parameters. Conducted core operator reconstruction and parallel optimization for domestic Armv8-based CPUs. Through a synergistic design encompassing preprocessing, instruction-level optimization, operator refactoring, and parallel strategies, achieved a sustained computational performance of 437.56 Pflops (and a peak sustained performance of 11 Pflops in specific configurations).',
       achievements: [
-        '2024鲲鹏应用大赛全国银奖、深圳赛区金奖',
-        '2024年HPC China最佳论文',
-        '2022年中国超算最佳应用提名'
+        'National Silver Award & Shenzhen Gold Award, Kunpeng Application Innovation Contest 2024',
+        'Best Paper Award, HPC China 2024',
+        'Finalist (Nomination) for China Supercomputing Best Application Award 2022'
       ]
     },
     {
-      title: '遥感与多模态数据融合',
+      title: 'Remote Sensing and Multimodal Data Fusion',
       icon: <Satellite className="w-6 h-6" />,
-      description: '提出NTLSTM和DeepLight方法实现8倍融合重建，基于此发布长时序夜光数据集PANDA-China，浏览量超32000次，下载量超9000次，长期位列国家科学数据中心热榜前十。',
+      description: 'Proposed the NTLSTM and DeepLight methodologies to achieve 8x fusion reconstruction. Based on these methods, released the long-term nighttime light dataset PANDA-China, which has surpassed 32,000 views and 9,000 downloads, consistently ranking among the top 10 on the National Space Science Data Center (NSSDC) trending list.',
       achievements: [
-        '论文发表于Scientific Data和IJCAI',
-        '1篇入选ESI高被引论文',
-        '1篇入选IJCAI 2024 AI4Good分会Highlight',
-        '2024年国家对地观测中心"最具价值数据集奖"',
-        '"最有贡献数据团队奖"'
+        'Publications in Scientific Data (Nature Portfolio) and IJCAI',
+        '1 paper recognized as an ESI Highly Cited Paper',
+        '1 paper selected as a Highlight in the AI4Good Track at IJCAI 2024',
+        'Most Valuable Dataset Award, National Earth Observation Data Center 2024',
+        'Most Contributive Data Team Award'
       ]
     },
     {
-      title: '遥感图像可信超分',
+      title: 'Trustworthy Super-Resolution for Remote Sensing Imagery',
       icon: <Image className="w-6 h-6" />,
-      description: '提出面向遥感图像的SRSeg、SWCARE、Ref-Diff、RRSGAN方法，相较于现有方法峰值信噪比（PSNR）提高0.2到0.8 dB，且光谱畸变小于5%，表现出较强的实用性和广泛应用潜力。',
+      description: 'Introduced SRSeg, SWCARE, Ref-Diff, and RRSGAN frameworks tailored for remote sensing image super-resolution. These methods achieved a Peak Signal-to-Noise Ratio (PSNR) improvement of 0.2 to 0.8 dB over existing benchmarks, while maintaining spectral distortion below 5%, demonstrating significant practical utility and broad application potential.',
       achievements: [
-        '论文发表于IEEE TGRS、JAG、Remote Sensing和CVPR（CCF-A类）',
-        '1篇入选ESI高被引论文',
-        '2023年智慧城市空天地信息技术大赛一等奖'
+        'Publications in IEEE TGRS, JAG, Remote Sensing, and CVPR (CCF-A)',
+        '1 paper recognized as an ESI Highly Cited Paper',
+        'First Prize, Smart City Air-Space-Ground Information Technology Competition 2023'
       ]
     }
   ];
