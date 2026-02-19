@@ -3,38 +3,48 @@ import { GraduationCap, Microscope, ShieldCheck, Globe, Calendar, Wallet } from 
 const Projects = () => {
   const projects = [
     {
-      name: 'Research on Spatio-temporal Consistency Constrained Super-resolution Reconstruction for Global Long-term Nighttime Light Remote Sensing',
+      name: 'National Natural Science Foundation of China (NSFC) - Youth Program (C)',
       role: 'Principal Investigator (PI)',
       category: 'National Level',
-      type: 'National Natural Science Foundation of China (NSFC) - Youth Program',
+      type: 'Remote Sensing | Multimodality Data Fusion',
       funding: '¥300,000',
       period: '2026.01 - 2028.12',
       color: 'bg-indigo-700', // 国家级：深蓝色
       icon: <Globe className="w-5 h-5" />
     },
     {
-      name: 'Trusted Multi-source Spatio-temporal Remote Sensing Super-resolution Methods for the Guangdong-Hong Kong-Macao Greater Bay Area',
+      name: 'Guangdong Provincial Natural Science Foundation - General Program',
       role: 'Principal Investigator (PI)',
       category: 'Provincial Level',
-      type: 'Guangdong Provincial Natural Science Foundation - General Program',
+      type: 'AI4Urban | Remote Sensing',
       funding: '¥100,000',
       period: '2026.01 - 2028.12',
       color: 'bg-emerald-700', // 省部级：翠绿色
       icon: <Microscope className="w-5 h-5" />
     },
     {
-      name: 'Key Technology Construction of Remote Sensing Foundation Models for XXXXX Applications',
+      name: 'Classified Project with Aerospace Industry',
       role: 'Principal Investigator (PI)',
       category: 'Industrial/Horizontal',
-      type: 'Classified Project, Aerospace Sector',
+      type: 'RS Foundation model | Domestic opt.',
       funding: '¥200,000',
-      period: '2024.10 - 2025.10',
+      period: '2024.10 - 2025.12',
       color: 'bg-slate-600', // 横向/涉密：石板灰
       icon: <ShieldCheck className="w-5 h-5" />
     },
     {
+      name: 'Shenzhen Science and Technology Program',
+      role: 'Co-Principal Investigator (co-PI)',
+      category: 'Provincial Level',
+      type: 'Foundation Model | AI4S | Remote Sensing',
+      funding: '¥900,000',
+      period: '2026.01 - 2028.12',
+      color: 'bg-emerald-700', // 省部级：翠绿色
+      icon: <Microscope className="w-5 h-5" />
+    },
+    {
       name: 'Million-core Scalable Kilometer-scale Sea-Land-Air Coupled Regional Climate Model and Prediction System',
-      role: 'Co-Investigator (Co-I)',
+      role: 'Participants',
       category: 'National Level',
       type: 'National Key R&D Program of China - Major Specialist Project',
       funding: '¥15,000,000',
