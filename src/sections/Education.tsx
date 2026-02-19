@@ -3,38 +3,38 @@ import { GraduationCap, Award, Plane } from 'lucide-react';
 const Education = () => {
   const educations = [
     {
-      date: '2024.1 - 至今',
-      degree: '博士后',
-      field: '高性能计算与人工智能',
-      institution: '国家超级计算深圳中心',
-      location: '广东深圳',
-      advisor: '合作导师：卢宇彤教授（万人学者）',
+      date: '2024.1 - 2026.3',
+      degree: 'Postdoctoral Research Fellow',
+      field: 'HPC for remote sensing foundation model',
+      institution: 'National Super-computing Center in Shenzhen',
+      location: 'Shenzhen, Guangdong',
+      advisor: 'Working with Prof. Yutong Lu @Sun Yat-sen University, National Super-computing Center in Shenzhen, and National Super-computing Center in Guangdong',
       icon: <Award className="w-5 h-5" />
     },
     {
       date: '2018.9 - 2024.1',
-      degree: '博士',
-      field: '全球变化生态学',
-      institution: '清华大学地球系统科学系',
-      location: '北京',
-      advisor: '导师：付昊桓教授（国家杰青）',
+      degree: 'Ph.D.',
+      field: 'Earth system Science',
+      institution: 'Tsinghua University',
+      location: 'Beijing',
+      advisor: 'Supervised by Prof. Haohuan Fu (Fellow, IEEE) @Tsinghua University, National Super-computing Center in Shenzhen, and National Super-computing Center in Wuxi',
       icon: <GraduationCap className="w-5 h-5" />
     },
     {
       date: '2020.3 - 2021.4',
-      degree: '访问学者',
-      field: '信号处理·人工智能与对地观测',
-      institution: '慕尼黑工业大学',
-      location: '德国慕尼黑',
-      advisor: '导师：Prof. Zhu（IEEE Fellow, 欧洲科学院院士）',
+      degree: 'Visiting Scholar',
+      field: 'AI for earth observation',
+      institution: 'Technische Universität München (Technical University of Munich)',
+      location: 'Munich',
+      advisor: 'Co-supervised by Prof. Xiaoxiang Zhu (Fellow, IEEE) @Technical University of Munich and DLR',
       icon: <Plane className="w-5 h-5" />
     },
     {
       date: '2014.9 - 2018.6',
-      degree: '学士',
-      field: '测绘工程·摄影测量与遥感',
-      institution: '武汉大学测绘学院',
-      location: '湖北武汉',
+      degree: 'Bachelor',
+      field: 'photogrammetry',
+      institution: 'Wuhan University',
+      location: 'Wuhan',
       advisor: '',
       icon: <GraduationCap className="w-5 h-5" />
     }
