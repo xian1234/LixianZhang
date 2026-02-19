@@ -6,14 +6,10 @@ const About = () => {
       <div className="flex flex-col md:flex-row gap-8 items-start">
         {/* Profile Image */}
         <div className="shrink-0">
-          <div className="w-48 h-60 bg-gradient-to-br from-blue-100 to-blue-200 rounded-lg shadow-lg flex items-center justify-center">
-            <div className="text-center">
-              <div className="w-32 h-32 mx-auto mb-4 bg-blue-800 rounded-full flex items-center justify-center text-white text-4xl font-bold">
-                张
-              </div>
-              <p className="text-sm text-gray-600">Lixian Zhang (张立贤)</p>
-            </div>
+          <div className="w-48 h-48 rounded-full overflow-hidden shadow-lg border-4 border-white">
+           <img src="/src/zlx.jpeg" alt="Profile" className="w-full h-full object-cover" />
           </div>
+              <p className="text-sm text-gray-600">Lixian Zhang (张立贤)</p>
         </div>
 
         {/* Profile Info */}
