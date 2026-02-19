@@ -39,14 +39,16 @@ const About = () => {
           </div>
 
           <div className="prose prose-gray max-w-none">
+            {/* <p className="text-gray-700 leading-relaxed mb-4">
+              I am an Assistant Professor at Renmin University of China (RUC).
+            </p> */}
             <p className="text-gray-700 leading-relaxed mb-4">
-              I received the Ph.D. degree from Tsinghua University, Beijing, China, supervised by Prof. Haohuan Fu, in 2024. 
-              From 2024 to 2025, I was a Postdoctoral Researcher with the High-performance Computing Department, National Supercomputing Center in Shenzhen, China, working with Prof. Yutong Lu. 
-              I am currently an Assistant Professor with Renmin University of China.
+              My academic journey has been driven by a fascination with how massive computing power can reshape our understanding of the Earth. 
+              I received my Ph.D. from Tsinghua University in 2024, where I had the privilege of working with Prof. Haohuan Fu. 
+              Following that, I pursued my postdoctoral research at the National Supercomputing Center in Shenzhen (NSCC-SZ), collaborating with Prof. Yutong Lu.
             </p>
             <p className="text-gray-700 leading-relaxed">
-              My research sits at the intersection of High-Performance Computing (HPC), Remote Sensing (RS), and Artificial Intelligence (AI). 
-              I am particularly interested in Foundation Models for Remote Sensing, Multi-modal Data Fusion, and Super-resolution.
+              My research lives at the vibrant intersection of High-Performance Computing (HPC), Remote Sensing (RS), and Artificial Intelligence (AI). Currently, I am dedicated to building the next generation of Remote Sensing Foundation Models, exploring the limits of Multi-modal Data Fusion, and pushing the boundaries of Super-resolution techniques.
             </p>
           </div>
 
