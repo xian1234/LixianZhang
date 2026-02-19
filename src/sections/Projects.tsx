@@ -1,4 +1,3 @@
-import React from 'react';
 import { GraduationCap, Microscope, ShieldCheck, Globe, Calendar, Wallet } from 'lucide-react';
 
 const Projects = () => {
