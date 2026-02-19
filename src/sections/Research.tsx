@@ -1,6 +1,7 @@
 import { Cpu, Satellite, Image } from 'lucide-react';
 
-const researchAreas = [
+const Research = () => {
+  const researchAreas = [
     {
       title: 'LLM Pre-training and Parallel Optimization for Domestic Supercomputing Platforms',
       icon: <Cpu className="w-6 h-6" />,
@@ -37,7 +38,6 @@ const researchAreas = [
   return (
     <section id="research" className="academic-section">
       <h2 className="section-title">研究方向与亮点</h2>
-      
       <div className="space-y-6">
         {researchAreas.map((area, index) => (
           <div key={index} className="bg-white rounded-lg shadow-sm border border-gray-100 p-6 hover:shadow-md transition-shadow">
