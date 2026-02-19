@@ -7,8 +7,8 @@ const researchAreas = [
       description: 'Developed a pre-training framework for Remote Sensing Large Language Models (RS-LLMs), executing pre-training on 140TB of heterogeneous data with 600 million parameters. Conducted core operator reconstruction and parallel optimization for domestic Armv8-based CPUs. Through a synergistic design encompassing preprocessing, instruction-level optimization, operator refactoring, and parallel strategies, achieved a sustained computational performance of 437.56 Pflops (and a peak sustained performance of 11 Pflops in specific configurations).',
       achievements: [
         'National Silver Award & Shenzhen Gold Award, Kunpeng Application Innovation Contest 2024',
-        'Best Paper Award, HPC China 2024',
-        'Finalist (Nomination) for China Supercomputing Best Application Award 2022'
+        'Finalist (Nomination) for China Supercomputing Best Application Award 2022',
+        'Selected as DAAD xAI Fellow'
       ]
     },
     {
@@ -18,9 +18,8 @@ const researchAreas = [
       achievements: [
         'Publications in Scientific Data (Nature Portfolio) and IJCAI',
         '1 paper recognized as an ESI Highly Cited Paper',
-        '1 paper selected as a Highlight in the AI4Good Track at IJCAI 2024',
-        'Most Valuable Dataset Award, National Earth Observation Data Center 2024',
-        'Most Contributive Data Team Award'
+        'Top 10 Most Valuable Dataset Award, 2024',
+        'Top 10 Most Contributive Team Award, 2024'
       ]
     },
     {
