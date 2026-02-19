@@ -49,11 +49,11 @@ const About = () => {
           </div>
 
           <div className="flex flex-wrap gap-2 mt-6">
-            <span className="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm font-medium">遥感图像处理</span>
-            <span className="px-3 py-1 bg-green-100 text-green-800 rounded-full text-sm font-medium">深度学习</span>
-            <span className="px-3 py-1 bg-purple-100 text-purple-800 rounded-full text-sm font-medium">多模态融合</span>
-            <span className="px-3 py-1 bg-orange-100 text-orange-800 rounded-full text-sm font-medium">高性能计算</span>
-            <span className="px-3 py-1 bg-red-100 text-red-800 rounded-full text-sm font-medium">夜光遥感</span>
+            <span className="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm font-medium">AI for Earth Science</span>
+            <span className="px-3 py-1 bg-green-100 text-green-800 rounded-full text-sm font-medium">Multimodality data fusion</span>
+            <span className="px-3 py-1 bg-purple-100 text-purple-800 rounded-full text-sm font-medium">Image super-resolution</span>
+            <span className="px-3 py-1 bg-orange-100 text-orange-800 rounded-full text-sm font-medium">Time-series modeling</span>
+            <span className="px-3 py-1 bg-red-100 text-red-800 rounded-full text-sm font-medium">High performance computing</span>
           </div>
         </div>
       </div>
