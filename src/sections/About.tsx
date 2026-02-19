@@ -7,15 +7,21 @@ const About = () => {
         {/* Profile Image */}
         <div className="shrink-0">
           <div className="w-48 h-48 rounded-full overflow-hidden shadow-lg border-4 border-white">
-           <img src="/src/zlx.jpeg" alt="Profile" className="w-full h-full object-cover" />
+            {/* 替换后的图片代码 */}
+            <img 
+              src="/src/zlx.jpeg" 
+              alt="Profile" 
+              className="w-full h-full object-cover" 
+            />
           </div>
-              <p className="text-sm text-gray-600">Lixian Zhang (张立贤)</p>
+          {/* 如果你想在照片下方保留姓名文字，可以保留下面的 p 标签 */}
+          <p className="text-center mt-2 text-sm text-gray-600 font-medium">Lixian Zhang(张立贤)</p>
         </div>
 
         {/* Profile Info */}
         <div className="flex-1">
           <h1 className="text-3xl font-bold text-gray-900 mb-2">张立贤 (Lixian Zhang)</h1>
-          <p className="text-lg text-blue-800 mb-4">Postdoctoral Researcher Fellow | Remote Sensing, AI4Earth, and HPC</p>
+          <p className="text-lg text-blue-800 mb-4">Assitant Professor | AI4Urban</p>
           
           <div className="flex flex-wrap gap-3 mb-6">
             <span className="inline-flex items-center gap-1 px-3 py-1 bg-blue-50 text-blue-800 rounded-full text-sm">
