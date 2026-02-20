@@ -33,9 +33,36 @@ const About = () => {
                 <Mail className="w-4 h-4 text-blue-600" />
                 <span className="text-xs text-gray-600 truncate group-hover:text-blue-700">zhanglx18@tsinghua.org.cn</span>
               </div>
+              <a 
+                href="https://scholar.google.com/citations?user=wL_uBCQAAAAJ" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="flex items-center gap-3 p-2 bg-gray-50 rounded-lg hover:bg-blue-50 transition-colors group"
+              >
+                <ScholarIcon className="w-4 h-4 text-blue-600" />
+                <span className="text-xs text-gray-600 group-hover:text-blue-700 flex items-center gap-1">
+                  Google Scholar <ExternalLink className="w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity" />
+                </span>
+              </a>
+
+              <a 
+                href="https://orcid.org/0000-0002-5285-1945" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="flex items-center gap-3 p-2 bg-gray-50 rounded-lg hover:bg-emerald-50 transition-colors group"
+              >
+                <img 
+                  src="https://orcid.org/assets/vectors/orcid.logo.icon.svg" 
+                  alt="ORCID" 
+                  className="w-4 h-4"
+                />
+                <span className="text-xs text-gray-600 group-hover:text-emerald-700 flex items-center gap-1">
+                  ORCID <ExternalLink className="w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity" />
+                </span>
+              </a>
               <div className="flex items-center gap-3 p-2 bg-gray-50 rounded-lg">
                 <MapPin className="w-4 h-4 text-gray-400" />
-                <span className="text-xs text-gray-600">Suzhou | Beijing | Shenzhen</span>
+                <span className="text-xs text-gray-600">5#, No.9 in Duxue Street, Shenzhen, China</span>
               </div>
             </div>
           </div>
@@ -47,17 +74,17 @@ const About = () => {
             </div>
             
             <h1 className="text-4xl font-extrabold text-gray-900 mb-6 leading-tight">
-              Exploring the Synergy of HPC and <span className="text-blue-600 italic">Urban Intelligence</span>
+              Exploring the Synergy of RS and <span className="text-blue-600 italic">Urban Intelligence</span>
             </h1>
 
             <div className="prose prose-blue max-w-none text-gray-700 space-y-4 text-justify">
               <p className="leading-relaxed">
                 <Sparkles className="w-4 h-4 inline mr-2 text-yellow-500" />
-                Welcome! I am an Assistant Professor deeply invested in the transformative power of computing. I earned my Ph.D. from <strong>Tsinghua University</strong> in 2024, advised by Prof. Haohuan Fu, and subsequently conducted postdoctoral research at the <strong>National Supercomputing Center in Shenzhen (NSCC-SZ)</strong> with Prof. Yutong Lu. My academic journey is fueled by a long-standing fascination with how massive computational scales can decipher the complexities of our planet.
+                Welcome! I am an Assistant Professor @ XXX University, deeply invested in the transformative power of computing. I receieved my Ph.D. from <strong>Tsinghua University</strong> in 2024, advised by Prof. Haohuan Fu, and subsequently conducted postdoctoral research at the <strong>National Supercomputing Center in Shenzhen (NSCC-SZ)</strong> with Prof. Yutong Lu. My academic journey is fueled by a long-standing fascination with how massive computational scales can decipher the complexities of our planet.
               </p>
               
               <p className="leading-relaxed">
-                My research resides at the vibrant intersection of <strong>High-Performance Computing (HPC), Remote Sensing (RS), and Artificial Intelligence (AI)</strong>. Currently, I am dedicated to architecting the next generation of Remote Sensing Foundation Models. By pushing the boundaries of multi-modal data fusion and sub-meter super-resolution, I aim to extract profound geographical insights from the vast sea of planetary pixels.
+                My research resides at the vibrant intersection of <strong>Remote Sensing (RS), Artificial Intelligence (AI), and High-Performance Computing (HPC)</strong>. Currently, I am dedicated to architecting the next generation of Remote Sensing Foundation Models. By pushing the boundaries of multi-modal data fusion and sub-meter super-resolution, I aim to extract profound geographical insights from the vast sea of planetary pixels.
               </p>
             </div>
 
