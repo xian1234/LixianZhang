@@ -52,7 +52,7 @@ const Footer = () => {
         <div className="border-t border-gray-800 mt-8 pt-8 text-center text-sm">
           <p>&copy; {currentYear} 张立贤 (Lixian Zhang). All rights reserved.</p>
           <p className="mt-2 text-gray-500">
-            博士后研究员 | 国家超级计算深圳中心 | 清华大学博士
+            中国人民大学 | 国家超级计算深圳中心 | 清华大学 ｜ 慕尼黑工业大学 ｜ 武汉大学
           </p>
         </div>
       </div>
