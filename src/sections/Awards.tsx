@@ -1,4 +1,4 @@
-import { Trophy, Medal, Star, Award, Briefcase, Glasses, CheckCircle2, Globe, ScholarIcon, ExternalLink } from 'lucide-react';
+import { Trophy, Medal, Star, Award, Briefcase, Glasses, CheckCircle2, Globe } from 'lucide-react';
 
 const Awards = () => {
   const allAwards = [
