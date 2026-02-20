@@ -1,6 +1,15 @@
 import { Mail, MapPin, GraduationCap, Users, Sparkles, Rocket, ExternalLink } from 'lucide-react';
 
 const About = () => {
+  const keywords = [
+    'AI for Earth Science', 
+    'Multimodal Fusion', 
+    'Super-resolution', 
+    'Time-series Modeling', 
+    'HPC'
+  ];
+
+  
   return (
     <section id="about" className="py-12 bg-white">
       <div className="max-w-5xl mx-auto px-4">
@@ -92,10 +101,14 @@ const About = () => {
             </div>
 
             {/* Research Keywords */}
-            <div className="flex flex-wrap gap-2 mt-8">
-              {['AI for Earth Science', 'Multimodal Fusion', 'Super-resolution', 'Time-series Modeling', 'HPC'].map((tag) => (
-                <span key={tag} className="px-3 py-1 bg-gray-100 text-gray-600 rounded-md text-xs font-semibold hover:bg-blue-600 hover:text-white transition-colors cursor-default">
-                  #{tag}
+            <div className="flex flex-wrap gap-3 mt-8">
+              {keywords.map((tag) => (
+                <span 
+                  key={tag} 
+                  className="px-4 py-2 bg-white text-gray-600 rounded-xl text-xs font-bold border border-gray-100 shadow-sm hover:bg-blue-600 hover:text-white hover:border-blue-600 hover:-translate-y-0.5 transition-all duration-200 cursor-default flex items-center gap-1.5"
+                >
+                  <span className="text-blue-500 group-hover:text-white transition-colors">#</span>
+                  {tag}
                 </span>
               ))}
             </div>
