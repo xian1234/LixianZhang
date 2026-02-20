@@ -1,4 +1,4 @@
-import { Mail, Phone, MapPin, GraduationCap, Users, Sparkles, Rocket } from 'lucide-react';
+import { Mail, MapPin, GraduationCap, Users, Sparkles, Rocket } from 'lucide-react';
 
 const About = () => {
   return (
@@ -15,7 +15,10 @@ const About = () => {
                   src="zlx.jpeg" 
                   alt="Lixian Zhang" 
                   className="w-full h-full object-cover"
-                  onError={(e) => { e.target.src = 'https://via.placeholder.com/200?text=LZ'; }}
+                  onError={(e) => { 
+                    const target = e.target as HTMLImageElement;
+                    target.src = 'https://via.placeholder.com/200?text=LZ'; 
+                  }}
                 />
               </div>
             </div>
@@ -54,7 +57,7 @@ const About = () => {
               </p>
               
               <p className="leading-relaxed">
-                My research resides at the vibrant intersection of <strong>Remote Sensing (RS), Artificial Intelligence (AI), and High-Performance Computing (HPC)</strong>. Currently, I am dedicated to architecting the next generation of Multimodality RS Models. By pushing the boundaries of multi-modal data fusion and sub-meter super-resolution, I aim to extract profound geographical insights from the vast sea of planetary pixels.
+                My research resides at the vibrant intersection of <strong>High-Performance Computing (HPC), Remote Sensing (RS), and Artificial Intelligence (AI)</strong>. Currently, I am dedicated to architecting the next generation of Remote Sensing Foundation Models. By pushing the boundaries of multi-modal data fusion and sub-meter super-resolution, I aim to extract profound geographical insights from the vast sea of planetary pixels.
               </p>
             </div>
 
