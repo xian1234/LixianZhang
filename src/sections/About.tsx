@@ -108,7 +108,8 @@ const About = () => {
                   <h3 className="text-xl font-bold">Join Our Research Group!</h3>
                 </div>
                 <p className="text-blue-50 opacity-90 text-sm leading-relaxed mb-4">
-                  We are looking for motivated talents passionate about the fusion of AI and Earth Science. Opportunities are open for:
+                  We are looking for motivated talents passionate about the fusion of AI and Earth Science. Opportunities are open for:<br />
+                  课题组招收秋季入学的硕士生，同时长期招收有兴趣一起科研合作的实习生、本科生，欢迎有兴趣的同学与我邮件联系！
                 </p>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <div className="flex items-start gap-3 bg-white/10 p-3 rounded-xl backdrop-blur-sm hover:bg-white/20 transition-colors">
