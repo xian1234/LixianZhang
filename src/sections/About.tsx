@@ -76,7 +76,8 @@ const About = () => {
             </div>
             
             <h1 className="text-4xl font-extrabold text-gray-900 mb-6 leading-tight">
-              Exploring the Synergy of HPC and <span className="text-blue-600 italic">Urban Intelligence</span>
+              Exploring the Synergy of <br />
+              RS and <span className="text-blue-600 italic">Urban Intelligence</span>
             </h1>
 
             <div className="prose prose-blue max-w-none text-gray-700 space-y-4 text-justify">
@@ -86,7 +87,7 @@ const About = () => {
               </p>
               
               <p className="leading-relaxed">
-                My research resides at the vibrant intersection of <strong>High-Performance Computing (HPC), Remote Sensing (RS), and Artificial Intelligence (AI)</strong>. Currently, I am dedicated to architecting the next generation of Remote Sensing Foundation Models. By pushing the boundaries of multi-modal data fusion and sub-meter super-resolution, I aim to extract profound geographical insights from the vast sea of planetary pixels.
+                My research resides at the vibrant intersection of <strong>Remote Sensing (RS), Artificial Intelligence (AI), and High-Performance Computing (HPC)</strong>. Currently, I am dedicated to architecting the next generation of Remote Sensing Foundation Models. By pushing the boundaries of multi-modal data fusion and sub-meter super-resolution, I aim to extract profound geographical insights from the vast sea of planetary pixels.
               </p>
             </div>
 
@@ -114,7 +115,7 @@ const About = () => {
                     <Users className="w-5 h-5 mt-1 text-blue-200" />
                     <div>
                       <p className="font-bold text-sm">Research Internships</p>
-                      <p className="text-xs text-blue-100 mt-1">For students with strong coding skills and a drive to publish at top-tier venues (CVPR, AAAI, etc.).</p>
+                      <p className="text-xs text-blue-100 mt-1">For students with (or potentially) strong coding skills and a drive to publish at top-tier venues and journals.</p>
                     </div>
                   </div>
                   <div className="flex items-start gap-3 bg-white/10 p-3 rounded-xl backdrop-blur-sm hover:bg-white/20 transition-colors">
