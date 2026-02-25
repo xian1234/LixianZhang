@@ -62,7 +62,7 @@ const NavigationCn = () => {
                 {item.label}
               </a>
             ))}
-            <a href="/" className="ml-2 px-3 py-1.5 rounded-md border border-blue-200 text-blue-700 text-sm font-semibold hover:bg-blue-50 transition-colors">EN/English</a>
+            <a href="../" className="ml-2 px-3 py-1.5 rounded-md border border-blue-200 text-blue-700 text-sm font-semibold hover:bg-blue-50 transition-colors">EN/English</a>
           </div>
 
           <button
@@ -88,7 +88,7 @@ const NavigationCn = () => {
                 {item.label}
               </a>
             ))}
-            <a href="/" className="block px-4 py-2 text-blue-700 font-semibold hover:bg-blue-50">EN/English</a>
+            <a href="../" className="block px-4 py-2 text-blue-700 font-semibold hover:bg-blue-50">EN/English</a>
           </div>
         )}
       </div>

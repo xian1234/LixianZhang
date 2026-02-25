@@ -4,7 +4,8 @@ import './index.css'
 import App from './App.tsx'
 import CnApp from './cn/CnApp.tsx'
 
-const isChinesePage = window.location.pathname.startsWith('/cn')
+const pathSegments = window.location.pathname.split('/').filter(Boolean)
+const isChinesePage = pathSegments.includes('cn')
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
