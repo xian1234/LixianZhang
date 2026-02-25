@@ -60,7 +60,7 @@ const Navigation = () => {
                 {item.label}
               </a>
             ))}
-            <a href="/cn" className="ml-2 px-3 py-1.5 rounded-md border border-blue-200 text-blue-700 text-sm font-semibold hover:bg-blue-50 transition-colors">CN/中文</a>
+            <a href="cn/" className="ml-2 px-3 py-1.5 rounded-md border border-blue-200 text-blue-700 text-sm font-semibold hover:bg-blue-50 transition-colors">CN/中文</a>
           </div>
 
           {/* Mobile Menu Button */}
@@ -85,7 +85,7 @@ const Navigation = () => {
                 {item.label}
               </a>
             ))}
-            <a href="/cn" className="block px-4 py-2 text-blue-700 font-semibold hover:bg-blue-50">CN/中文</a>
+            <a href="cn/" className="block px-4 py-2 text-blue-700 font-semibold hover:bg-blue-50">CN/中文</a>
           </div>
         )}
       </div>
