@@ -68,7 +68,7 @@ const AboutCn = () => {
             <div className="prose prose-blue max-w-none text-gray-700 space-y-4 text-justify">
               <p className="leading-relaxed">
                 <Sparkles className="w-4 h-4 inline mr-2 text-yellow-500" />
-                欢迎访问我的主页！我长期关注计算技术在地球科学中的变革潜力。2024 年毕业于清华大学并获得博士学位（导师：付昊桓教授），随后在国家超级计算深圳中心开展博士后研究（合作导师：卢宇彤教授）。我始终相信，超大规模计算能够帮助我们理解地球系统的复杂机制。
+                欢迎访问我的主页！我长期关注前沿人工智能技术在空间智能与城市治理中的变革潜力。2024 年毕业于清华大学并获得博士学位（导师：付昊桓教授），随后在国家超级计算深圳中心开展博士后研究（合作导师：卢宇彤教授）。我始终相信，超大规模计算能够帮助我们理解地球系统的复杂机制。
               </p>
 
               <p className="leading-relaxed">
