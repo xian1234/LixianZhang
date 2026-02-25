@@ -1,4 +1,5 @@
 import { Mail, MapPin, GraduationCap, Users, Sparkles, Rocket, ExternalLink } from 'lucide-react';
+import profileImage from '../zlx.jpeg';
 
 const About = () => {
   const keywords = [
@@ -21,7 +22,7 @@ const About = () => {
               <div className="absolute inset-0 bg-blue-500 rounded-full blur-xl opacity-20 animate-pulse"></div>
               <div className="relative w-52 h-52 rounded-2xl overflow-hidden shadow-2xl border-4 border-white rotate-3 hover:rotate-0 transition-transform duration-500">
                 <img 
-                  src="zlx.jpeg" 
+                  src={profileImage}
                   alt="Lixian Zhang" 
                   className="w-full h-full object-cover"
                   onError={(e) => { 

@@ -1,4 +1,5 @@
 import { Mail, MapPin, GraduationCap, Users, Sparkles, Rocket, ExternalLink } from 'lucide-react';
+import profileImage from '../../zlx.jpeg';
 
 const AboutCn = () => {
   const keywords = ['地球科学智能', '多模态融合', '超分辨率重建', '时序建模', '高性能计算'];
@@ -12,7 +13,7 @@ const AboutCn = () => {
               <div className="absolute inset-0 bg-blue-500 rounded-full blur-xl opacity-20 animate-pulse"></div>
               <div className="relative w-52 h-52 rounded-2xl overflow-hidden shadow-2xl border-4 border-white rotate-3 hover:rotate-0 transition-transform duration-500">
                 <img
-                  src="/zlx.jpeg"
+                  src={profileImage}
                   alt="张立贤"
                   className="w-full h-full object-cover"
                   onError={(e) => {
