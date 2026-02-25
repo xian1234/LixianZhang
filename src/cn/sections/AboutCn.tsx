@@ -90,7 +90,8 @@ const AboutCn = () => {
                   <h3 className="text-xl font-bold">欢迎加入课题组！</h3>
                 </div>
                 <p className="text-blue-50 opacity-90 text-sm leading-relaxed mb-4">
-                  课题组长期欢迎对 AI + 地球科学交叉研究感兴趣的同学加入，现招收秋季入学硕士生，并持续招募实习生与本科科研伙伴。
+                  We are looking for motivated talents passionate about the fusion of AI and Earth Science. Opportunities are open for:<br />
+                  课题组招收秋季入学的硕士生，同时长期招收有兴趣一起科研合作的实习生、本科生，欢迎有兴趣的同学与我邮件联系！
                 </p>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <div className="flex items-start gap-3 bg-white/10 p-3 rounded-xl backdrop-blur-sm">
@@ -104,7 +105,7 @@ const AboutCn = () => {
                     <GraduationCap className="w-5 h-5 mt-1 text-blue-200" />
                     <div>
                       <p className="font-bold text-sm">研究生招生</p>
-                      <p className="text-xs text-blue-100 mt-1">电子信息与人工智能方向硕士生欢迎报考与交流。</p>
+                      <p className="text-xs text-blue-100 mt-1">遥感、电子信息与人工智能、计算机科学等相关方向硕士生欢迎报考与交流。</p>
                     </div>
                   </div>
                 </div>
