@@ -57,7 +57,7 @@ const AboutCn = () => {
 
           <div className="flex-1">
             <div className="inline-block px-3 py-1 bg-blue-100 text-blue-700 rounded-full text-xs font-bold tracking-wider mb-4">
-              AI4Urban 助理教授
+              AI4Urban 讲师
             </div>
 
             <h1 className="text-4xl font-extrabold text-gray-900 mb-6 leading-tight">
@@ -72,7 +72,7 @@ const AboutCn = () => {
               </p>
 
               <p className="leading-relaxed">
-                我的研究聚焦于<strong>遥感（RS）</strong>、<strong>人工智能（AI）</strong>与<strong>高性能计算（HPC）</strong>交叉领域。目前主要围绕遥感基础模型构建，推动多模态数据融合与亚米级超分辨率建模方法发展，从海量像元中提取有价值的地理信息。
+                我的研究聚焦于<strong>遥感（RS）</strong>、<strong>人工智能（AI）</strong>与<strong>高性能计算（HPC）</strong>等学科交叉领域。目前主要围绕遥感基础模型构建，推动多模态数据融合与跨时空超分辨率重建方法发展，从海量像元中提取有价值的地理信息。
               </p>
             </div>
 
