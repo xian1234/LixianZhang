@@ -3,9 +3,9 @@ import { GraduationCap, Award, Plane } from 'lucide-react';
 const EducationCn = () => {
   const educations = [
     {
-      date: '2024.1 - 2026.3',
+      date: '2024.1 - 2026.2',
       degree: '博士后研究员',
-      field: '遥感基础模型高性能计算',
+      field: '高性能计算部',
       institution: '国家超级计算深圳中心',
       location: '广东·深圳',
       advisor: '合作导师：卢宇彤教授（中山大学、国家超级计算深圳中心/广东中心）',
@@ -14,7 +14,7 @@ const EducationCn = () => {
     {
       date: '2018.9 - 2024.1',
       degree: '博士',
-      field: '地球系统科学',
+      field: '地球系统科学系',
       institution: '清华大学',
       location: '北京',
       advisor: '导师：付昊桓教授（清华大学、国家超级计算深圳中心/无锡中心）',
@@ -26,13 +26,13 @@ const EducationCn = () => {
       field: 'AI4Future Lab',
       institution: '慕尼黑工业大学（TUM）',
       location: '德国·慕尼黑',
-      advisor: '合作导师：Prof. XX. Zhu）',
+      advisor: '合作导师：Prof. XX. Zhu',
       icon: <Plane className="w-5 h-5" />,
     },
     {
       date: '2014.9 - 2018.6',
       degree: '学士',
-      field: '摄影测量与遥感',
+      field: '测绘学院',
       institution: '武汉大学',
       location: '湖北·武汉',
       advisor: '',
