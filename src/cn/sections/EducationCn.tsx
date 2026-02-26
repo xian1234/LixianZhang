@@ -23,7 +23,7 @@ const EducationCn = () => {
     {
       date: '2020.3 - 2021.4',
       degree: '访问学者',
-      field: '地球观测人工智能',
+      field: 'AI4Future Lab',
       institution: '慕尼黑工业大学（TUM）',
       location: '德国·慕尼黑',
       advisor: '合作导师：Prof. XX. Zhu）',
