@@ -31,7 +31,7 @@ const AboutCn = () => {
             <div className="mt-6 w-full space-y-2">
               <div className="flex items-center gap-3 p-2 bg-gray-50 rounded-lg hover:bg-blue-50 transition-colors group">
                 <Mail className="w-4 h-4 text-blue-600" />
-                <span className="text-xs text-gray-600 truncate group-hover:text-blue-700">zhanglx18@tsinghua.org.cn</span>
+                <span className="text-xs text-gray-600 truncate group-hover:text-blue-700">zhanglixian@ruc.edu.cn</span>
               </div>
 
               <a href="https://scholar.google.com/citations?user=wL_uBCQAAAAJ" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 p-2 bg-gray-50 rounded-lg hover:bg-blue-50 transition-colors group">
@@ -57,7 +57,7 @@ const AboutCn = () => {
 
           <div className="flex-1">
             <div className="inline-block px-3 py-1 bg-blue-100 text-blue-700 rounded-full text-xs font-bold tracking-wider mb-4">
-              AI4Urban 讲师
+              中国人民大学 硕士生导师@电子信息 | 低空智能方向
             </div>
 
             <h1 className="text-4xl font-extrabold text-gray-900 mb-6 leading-tight">
