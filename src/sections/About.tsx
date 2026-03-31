@@ -41,7 +41,7 @@ const About = () => {
             <div className="mt-6 w-full space-y-2">
               <div className="flex items-center gap-3 p-2 bg-gray-50 rounded-lg hover:bg-blue-50 transition-colors group">
                 <Mail className="w-4 h-4 text-blue-600" />
-                <span className="text-xs text-gray-600 truncate group-hover:text-blue-700">zhanglx18@tsinghua.org.cn</span>
+                <span className="text-xs text-gray-600 truncate group-hover:text-blue-700">zhanglixian@ruc.edu.cn</span>
               </div>
               
               <a 
@@ -93,7 +93,7 @@ const About = () => {
             <div className="prose prose-blue max-w-none text-gray-700 space-y-4 text-justify">
               <p className="leading-relaxed">
                 <Sparkles className="w-4 h-4 inline mr-2 text-yellow-500" />
-                Welcome! I am an Assistant Professor deeply invested in the transformative power of computing. I earned my Ph.D. from <strong>Tsinghua University</strong> in 2024, advised by Prof. Haohuan Fu, and subsequently conducted postdoctoral research at the <strong>National Supercomputing Center in Shenzhen (NSCC-SZ)</strong> with Prof. Yutong Lu. My academic journey is fueled by a long-standing fascination with how massive computational scales can decipher the complexities of our planet.
+                Welcome! I am currently an Assistant Professor at Renmin University of China, deeply invested in the transformative power of computing. I earned my Ph.D. from <strong>Tsinghua University</strong> in 2024, advised by Prof. Haohuan Fu, and subsequently conducted postdoctoral research at the <strong>National Supercomputing Center in Shenzhen (NSCC-SZ)</strong> with Prof. Yutong Lu. My academic journey is fueled by a long-standing fascination with how massive computational scales can decipher the complexities of our planet.
               </p>
               
               <p className="leading-relaxed">
