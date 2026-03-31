@@ -12,8 +12,8 @@ const FooterCn = () => {
               <GraduationCap className="w-5 h-5" /> 联系方式
             </h3>
             <div className="space-y-2 text-sm">
-              <div className="flex items-center gap-2"><Mail className="w-4 h-4 text-blue-400" /><span>zhanglx18@tsinghua.org.cn</span></div>
-              <div className="flex items-center gap-2"><MapPin className="w-4 h-4 text-blue-400" /><span>国家超级计算深圳中心，广东深圳</span></div>
+              <div className="flex items-center gap-2"><Mail className="w-4 h-4 text-blue-400" /><span>zhanglixian@ruc.edu.cn</span></div>
+              <div className="flex items-center gap-2"><MapPin className="w-4 h-4 text-blue-400" /><span>中国人民大学，修远楼</span></div>
             </div>
           </div>
           <div>
