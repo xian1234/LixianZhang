@@ -16,11 +16,11 @@ const Footer = () => {
             <div className="space-y-2 text-sm">
               <div className="flex items-center gap-2">
                 <Mail className="w-4 h-4 text-blue-400" />
-                <span>zhanglx18@tsinghua.org.cn</span>
+                <span>zhanglixian@ruc.edu.cn</span>
               </div>
               <div className="flex items-center gap-2">
                 <MapPin className="w-4 h-4 text-blue-400" />
-                <span>国家超级计算深圳中心，广东深圳</span>
+                <span>中国人民大学，修远楼</span>
               </div>
             </div>
           </div>
@@ -52,7 +52,7 @@ const Footer = () => {
         <div className="border-t border-gray-800 mt-8 pt-8 text-center text-sm">
           <p>&copy; {currentYear} 张立贤 (Lixian Zhang). All rights reserved.</p>
           <p className="mt-2 text-gray-500">
-            中国人民大学 | 国家超级计算深圳中心 | 清华大学 ｜ 慕尼黑工业大学 ｜ 武汉大学
+            中国人民大学 ｜ 国家超级计算深圳中心 ｜ 清华大学 ｜ 慕尼黑工业大学 ｜ 武汉大学
           </p>
         </div>
       </div>
