@@ -3,6 +3,13 @@ import { BookOpen, ExternalLink } from 'lucide-react';
 const PublicationsCn = () => {
   const publications = [
     {
+      title: 'Transforming noisy archives into high-fidelity soil physical and chemical property maps: a structure-aware weakly supervised framework',
+      authors: 'Zhang, L., Ouyang, Z., Yue, S., Han, Z., & Song, L.',
+      venue: 'npj Artificial Intelligence, 2(1), 74, 2026',
+      badges: ['Nature Portfolio', 'Open Access'],
+      link: 'https://www.nature.com/articles/s44387-026-00125-y'
+    },
+    {
       title: 'A2-MAE: A spatial-temporal-spectral unified remote sensing pre-training method based on anchor-aware masked autoencoder',
       authors: 'Zhang, L., Zhao, Y., Dong, R., Zhang, J., Yuan, S., Cao, S., ... & Fu, H.',
       venue: 'IEEE Transactions on Geoscience and Remote Sensing, 2026',
